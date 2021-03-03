@@ -10,6 +10,8 @@ namespace PragueParking_3._0
             string conn = @"Data Source=LAPTOP-2UTSSLFS\SQLEXPRESS;Initial Catalog=PragueParking3;Integrated Security=True";
             Frontend menu = new Frontend(conn);
             menu.MainMenu();
+
+              
         }
     }
 }
